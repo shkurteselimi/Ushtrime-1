@@ -1,0 +1,138 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .home{
+    height: 100vh;
+    width: 100%;
+    background-image:url( "0-02-05-7be9733ef38675b30b46ad0e5446757977d46bc5f984ab042d882f235283d97e_1f8e3573027fcc.jpg" ) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+ }
+ .content{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: large;
+ }
+ .intro{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+ }
+ .hi{
+    font-size: 60px;
+
+ }
+ h1{
+    font-size: 60px;
+ }
+ 
+.service-card{
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 500px;
+    color: #333;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+     transition: transform 0.3s ease;
+}
+.service-card {
+    background-color: #fff; 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    flex: 1 1 30%;
+    text-align: left; 
+    
+}
+
+.service-card:hover {
+     transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-icon {
+    width: 300px ; 
+    margin-bottom: 10px;
+    max-width: 1000px;
+    
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    margin: 5px 0;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    .service-card {
+        margin-bottom: 20px;
+        width: 90%; 
+        max-width: 400px;
+    }
+}
+.two-column-section{
+display: flex;
+width:100%;
+
+}
+.column{
+    flex: 1;
+    padding: 20px;
+    color: white;
+
+}
+.contact-me{
+    background-color: #6B8E23;
+}
+.about-me{
+    background-color: #A52A2A;
+}
+.column h3{
+    margin-top: 0;
+    font-size: 1.5em;
+
+
+}
+.column p{
+    font-size: 0.9em;
+}
+@media (max-width: 768px) {
+    .two-column-section {
+        flex-direction: row; 
+    }
+}
+    
